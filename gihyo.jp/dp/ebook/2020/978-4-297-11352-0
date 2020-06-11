@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>オブジェクト指向UIデザイン ――使いやすいソフトウェアの原理 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="オブジェクト指向ユーザーインターフェース（OOUI）とは，オブジェクト（もの，名詞）を起点としてUIを設計すること。タスク（やること，動詞）を起点としたUIに比べて，画面数が減って作業効率が高まり，また開発効率や拡張性も向上する，いわば「銀の弾丸」的な効果を持ちます。ブログや雑誌記事などで大きな反響を得たこの設計手法について，前半部では理論やプロセスを詳説。そして後半部の「ワークアウト（実践演習）」では18の課題に読者がチャレンジ。実際に考え，手を動かし，試行錯誤をすることにより，OOUIの設計手法を体得できます。"/>
+  <meta name="keywords" content="藤井幸多,上野学,ソシオメディア株式会社電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1217.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0411.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="オブジェクト指向UIデザイン ――使いやすいソフトウェアの原理 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="オブジェクト指向ユーザーインターフェース（OOUI）とは，オブジェクト（もの，名詞）を起点としてUIを設計すること。タスク（やること，動詞）を起点としたUIに比べて，画面数が減って作業効率が高まり，また開発効率や拡張性も向上する，いわば「銀の弾丸」的な効果を持ちます。ブログや雑誌記事などで大きな反響を得たこの設計手法について，前半部では理論やプロセスを詳説。そして後半部の「ワークアウト（実践演習）」では18の課題に読者がチャレンジ。実際に考え，手を動かし，試行錯誤をすることにより，OOUIの設計手法を体得できます。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2020/978-4-297-11352-0"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11352-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/WEB%2BDB%20PRESS%20plus">WEB+DB PRESS plus</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">オブジェクト指向<wbr/>UI<wbr/>デザイン<br/><span class="sub">――使いやすいソフトウェアの原理</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11352-0.jpg" alt="オブジェクト指向UIデザイン ――使いやすいソフトウェアの原理"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">ソシオメディア株式会社，<wbr/>上野学，<wbr/>藤井幸多　著，<wbr/>上野学　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2020-06-05">2020年6月5日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2020-06-05">2020年6月5日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2020/978-4-297-11351-3" target="_blank">2020年6月5日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,980円 <a id="pid402887" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">360</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2020/978-4-297-11352-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2020/978-4-297-11352-0" data-text="オブジェクト指向UIデザイン ――使いやすいソフトウェアの原理 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2020/978-4-297-11352-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2020/978-4-297-11352-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>オブジェクト指向ユーザーインターフェース（OOUI）とは，<wbr/>オブジェクト（もの，<wbr/>名詞）を起点としてUIを設計すること。タスク（やること，<wbr/>動詞）を起点としたUIに比べて，<wbr/>画面数が減って作業効率が高まり，<wbr/>また開発効率や拡張性も向上する，<wbr/>いわば「銀の弾丸」的な効果を持ちます。ブログや雑誌記事などで大きな反響を得たこの設計手法について，<wbr/>前半部では理論やプロセスを詳説。そして後半部の「ワークアウト（実践演習）」では18の課題に読者がチャレンジ。実際に考え，<wbr/>手を動かし，<wbr/>試行錯誤をすることにより，<wbr/>OOUIの設計手法を体得できます。</p><h3>こんな方におすすめ</h3>
+<ul><li>Web／<wbr/>モバイルアプリケーション開発者</li><li>ユーザーインターフェースデザイナー</li><li>フロントエンドエンジニア</li></ul>
+<h3>著者から一言</h3>
+<p>ソシオメディアは，<wbr/>デザインコンサルティング会社として約20年間，<wbr/>UIデザインの各種メソッドや評価手法をシステム開発の現場でいろいろと試してきました。そこから得た知見として本書では，<wbr/>私たちが最も重視し，<wbr/>ほとんどすべてのデザイン案件で実践している設計手法，<wbr/>「オブジェクト指向ユーザーインターフェース」について解説していきます。<br />
+私たちはこれまでデザインコンサルティングの仕事で数百の業務アプリケーションを見てきましたが，<wbr/>世の中の業務アプリケーションの8割ぐらいはタスク指向のUI構成になっているようです。それらのほとんどは，<wbr/>オブジェクト指向のUI構成に変えるだけで劇的に改善できるのです。デザインはトレードオフの集合であり，<wbr/>常に有効なメソッドというものはほとんどありませんが，<wbr/>「タスク指向からオブジェクト指向への転回」だけは，<wbr/>半ば機械的に行えることでもあり，<wbr/>もう銀の弾丸と言っていいほど汎用的で強力なUI改善方法なのです。<br />
+ここでいう改善とは，<wbr/>操作効率，<wbr/>学習効率，<wbr/>業務効率，<wbr/>UI拡張性などの向上を意味します。UIの構成をタスク指向からオブジェクト指向にすると，<wbr/>通常，<wbr/>画面数は5〜20分の1に減ります。それにより，<wbr/>同じ目的を達成するために必要な操作手順も圧倒的に少なくなります。また設計もシンプルになり，<wbr/>開発工数は低減され，<wbr/>保守性も高まります。既存システムのUIが複雑で困っていると言う担当者を多く見てきましたが，<wbr/>彼らは単にオブジェクト指向ユーザーインターフェースの設計手法を知らないだけなのです。（「はじめに」より）</p><aside class="author"><h3>藤井幸多（ふじいこうた）</h3><p>著者。<br />
+ソシオメディア株式会社ユーザーインターフェースデザイナー。各種ビジネスアプリケーションをはじめさまざまなアプリケーションのデザインコンサルティングを経験。UI設計，<wbr/>ユーザビリティテスト，<wbr/>デザインガイドライン策定，<wbr/>デザイン評価，<wbr/>OOUI メソッドとトレーニングプログラムの開発／<wbr/>実施などを通して，<wbr/>デザイン組織への支援を行う。<br />
+Twitter：<a href="https://twitter.com/atochotto">@atochotto</a></p>
+</aside><aside class="author"><h3>上野学（うえのまなぶ）</h3><p>著者・<wbr/>監修者<br />
+デザインコンサルタント／<wbr/>デザイナー。各種ビジネスアプリケーション，<wbr/>ウェブ／<wbr/>モバイル／<wbr/>デスクトップアプリケーション，<wbr/>その他の様々なインタラクティブメディアのヒューマンインターフェース設計およびユーザビリティ評価に従事。ソシオメディアにおいてデザインメソッド開発を担う。執筆，<wbr/>講演など多数。<br />
+Twitter：<a href="https://twitter.com/manabuueno">@manabuueno</a></p></aside><aside class="author"><h3>ソシオメディア株式会社（ソシオメディアかぶしきがいしゃ）</h3><p>著者。<br />
+デジタルプロダクトに特化したデザインコンサルティング会社。2001年の創業以来，<wbr/>インタラクションデザイン，<wbr/>ユーザビリティエンジニアリング，<wbr/>デザインマネジメントなどの分野で先端的な実績を積み重ねるとともに，<wbr/>書籍，<wbr/>雑誌記事，<wbr/>セミナー，<wbr/>イベントなどで活発な情報発信を行い，<wbr/>業界をリードし続けている。近年はOOUIのトレーニングサービスが好評。<br />
+ウェブサイト：<a href="https://www.sociomedia.co.jp">https://www.sociomedia.co.jp</a></p></aside><section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-01.pdf" target="_blank">サンプルPDFファイル1</a>（1,387KB）</li></ul>
+<a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-01.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/thumb/TH400_9784297113513-01.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-01.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-02.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/thumb/TH400_9784297113513-02.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-02.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-03.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/thumb/TH400_9784297113513-03.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-03.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-04.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/thumb/TH400_9784297113513-04.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-04.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-05.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/thumb/TH400_9784297113513-05.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11351-3/9784297113513-05.png" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="41128">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに</li>
+
+</ul>
+<h3>1 オブジェクト指向UIとは何か</h3>
+<ul class="toc">
+<li>1-1 目当ての現し<ul class="toc">
+	<li>ユーザー要求とタスク</li>
+	<li>目当て＝オブジェクト</li></ul></li>
+<li>1-2 お金が先か，商品が先か<ul class="toc">
+	<li>明らかにおかしなUI</li>
+	<li>テストするまでもない問題</li></ul></li>
+<li>1-3 オブジェクト指向UI<ul class="toc">
+	<li>オブジェクト指向UIの原則</li>
+	<li>オブジェクトを知覚でき直接的に働きかけられる</li>
+	<li>オブジェクトは自身の性質と状態を体現する</li>
+	<li>オブジェクト選択→アクション選択の操作順序</li>
+	<li>すべてのオブジェクトが互いに協調しながらUIを構成する</li></ul></li>
+<li>1-4 オブジェクト指向か？ タスク指向か？<ul class="toc">
+	<li>対象オブジェクトを選ぶところから操作が始まる</li>
+	<li>タスク指向UIの問題</li>
+	<li>オブジェクト指向UIとタスク指向UIの対比</li>
+	<li>タスク指向UIを改善する　ビデオカメラ画面</li>
+	<li>タスク指向UIを改善する　フードデリバリーサービス</li>
+	<li>オブジェクトを前面に出す</li></ul></li>
+<li>1-5 UIがタスク指向になってしまう背景<ul class="toc">
+	<li>業務分析では「やること」がまとめられる</li>
+	<li>利用手続きをデザインしようとする</li>
+	<li>タスクに必要な情報オブジェクトを定義する</li></ul></li>
+
+</ul>
+<h3>2 オブジェクト指向UIの設計プロセス</h3>
+<ul class="toc">
+<li>2-1 デザインプロセスのミッシングリンクをつなぐ</li>
+<li>2-2 アプリケーションの手掛かり<ul class="toc">
+	<li>タスクを手掛かりにすると</li>
+	<li>オブジェクトを手掛かりにする</li></ul></li>
+<li>2-3 ユーザー，タスク，オブジェクトの関係</li>
+<li>2-4 ソフトウェアデザインのレイヤー<ul class="toc">
+	<li>UIは複数のオブジェクトを構造的に表象した合成物</li>
+	<li>モデル　ユーザーの関心対象の模式</li>
+	<li>インタラクション　構造と機能</li>
+	<li>プレゼンテーション　スタイルやレイアウト</li></ul></li>
+<li>2-5 デザインの究極の目的は形である<ul class="toc">
+	<li>デザイナーのアブダクション</li>
+	<li>一貫して作用する「原理」を備える</li>
+	<li>道具の抽象性</li></ul></li>
+<li>2-6 オブジェクト指向UI設計の基本ステップ<ul class="toc">
+	<li>ステップ1. オブジェクトの抽出</li>
+	<li>ステップ2. ビューとナビゲーションの検討</li>
+	<li>ステップ3. レイアウトパターンの適用</li></ul></li>
+
+</ul>
+<h3>3 オブジェクト指向UI設計の実践</h3>
+<ul class="toc">
+<li>3-1 オブジェクト指向UIの設計ステップ</li>
+<li>3-2 本章でデザインするものの全体像</li>
+<li>3-3 ステップ1. オブジェクトの抽出<ul class="toc">
+	<li>「名詞」を抽出する</li>
+	<li>「名詞」とそれらの関係を抽出する</li>
+	<li>「名詞」を汎化し，粒度を揃える</li>
+	<li>「名詞」の関係性をつなげ，オブジェクトを特定する</li>
+	<li>オブジェクトの中で「メインオブジェクト」になるものを特定する</li>
+	<li>メインオブジェクトの多重性を特定する</li>
+	<li>メインオブジェクトに付随するオブジェクトをプロパティとする<ul class="toc">
+		<li>コラム　メインオブジェクト選びのポイント</li></ul></li>
+	<li>タスクからアクションを見つける<ul class="toc">
+		<li>コラム　タスク，オブジェクト，プロパティ，アクション</li></ul></li></ul></li>
+<li>3-4 ステップ2. ビューとナビゲーションの検討<ul class="toc">
+	<li>基本のビュー形式</li>
+	<li>メインオブジェクトに「コレクション」と「シングル」のビューを与える<ul class="toc">
+		<li>コラム　シングルビューとコレクションビューの省略</li></ul></li>
+	<li>コレクションビューとシングルビューの呼び出し関係を検討する</li>
+	<li>メインオブジェクトの中からルートナビゲーション項目を選定する<ul class="toc">
+		<li>コラム　ルートナビゲーションの項目，アイコン，ラベリング</li></ul></li></ul></li>
+<li>3-5 ステップ3. レイアウトパターンの適用<ul class="toc">
+	<li>ルートナビゲーションの配置パターン</li>
+	<li>ビューの配置パターン</li>
+	<li>メインオブジェクト同士の参照関係を踏まえて配置パターンを適用する<ul class="toc">
+		<li>コラム　ビューの配置パターン適用のポイント</li></ul></li>
+	<li>コレクションビューの表示形式のパターン<ul class="toc">
+		<li>コラム　オブジェクトへのフォーカスとコレクションビュー</li></ul></li>
+	<li>コレクションの性質や用途に合わせて表示形式を決定する</li>
+	<li>コレクションのフィルタリングのパターン</li>
+	<li>シングルビューの表示形式のパターン<ul class="toc">
+		<li>コラム　シングルビューの表示内容</li></ul></li>
+	<li>シングルビューの性質や用途に合わせて表示形式を決定する</li>
+	<li>アクションの性質や用途に合わせて表示形式を決定する</li>
+	<li>Create（作成）アクションのパターン</li>
+	<li>Delete（削除）アクションのパターン</li>
+	<li>Update（更新）アクションのパターン</li>
+	<li>ビジュアルデザイン</li></ul></li>
+<li>3-6 タスクをどう扱うか<ul class="toc">
+	<li>タスクの特徴</li>
+	<li>タスクはどこへ行くのか？</li></ul></li>
+
+</ul>
+<h3>4 ワークアウト：基礎編</h3>
+<ul class="toc">
+<li>進め方</li>
+<li>レベル1 メモアプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル2 社員名簿アプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル3 イベント店舗管理アプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル4 会議室予約アプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル5 家族で遊べる場所を探すアプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル6 商品管理アプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル7 商品管理アプリケーション<ul class="toc">
+	<li>ヒント・チャレンジ</li>
+	<li>解説</li></ul></li>
+<li>レベル8 商品管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル9 商品管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+
+</ul>
+<h3>5 ワークアウト：応用編</h3>
+<ul class="toc">
+<li>進め方</li>
+<li>レベル10 スマートフォン用の営業支援アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル11 イベント管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル12 保険契約の顧客管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル13 アセット管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル14 サイト管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル15 出張申請・精算アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル16 契約管理アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル17 通貨換算アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+<li>レベル18 販売実績照会アプリケーション<ul class="toc">
+	<li>ヒント</li>
+	<li>解説</li></ul></li>
+
+</ul>
+<h3>6 オブジェクト指向UIのフィロソフィー</h3>
+<ul class="toc">
+<li>6-1 オブジェクトの原義</li>
+<li>6-2 オブジェクト指向<ul class="toc">
+	<li>クラスとインスタンス</li>
+	<li>イデア論</li>
+	<li>GUIにおけるオブジェクト</li>
+	<li>プログラミングにおける記述法</li></ul></li>
+<li>6-3 GUI<ul class="toc">
+	<li>マン – マシン インターフェースからユーザーインターフェースへ</li>
+	<li>インターフェースはユーザーとオブジェクトを接着する</li>
+	<li>Whirlwind　GUIという発想の原型</li>
+	<li>SAGE　防空システムに組み込まれた最初期のGUI</li>
+	<li>Sketchpad　グラフィック言語による対話型コンピューター</li>
+	<li>NLS　知的生産活動のためのコンピューター</li>
+	<li>Smalltalk　誰もが使えるパーソナルコンピューター</li>
+	<li>TUI　テキストベースのUI</li>
+	<li>Star　GUIベースのビジネス用ワークステーション</li>
+	<li>Macintosh　商業的に成功した最初のGUIシステム</li>
+	<li>iPhone　パーソナルコンピューターの新しいフォームファクター</li>
+	<li>メタメディアとしてのオブジェクト指向UI</li></ul></li>
+<li>6-4 モードレス<ul class="toc">
+	<li>モードレスネスを信奉しなさい</li>
+	<li>ラリー・テスラー　テキスト編集のモードレス化</li>
+	<li>ドナルド・ノーマン　モードエラーの分析</li>
+	<li>ジェフ・ラスキン　モードレスにすることで劇的に使いやすくなる</li>
+	<li>モードレスにする方法</li></ul></li>
+<li>6-5 オブジェクト指向UIについての文献<ul class="toc">
+	<li>『Object-Oriented User Interfaces and Object-Oriented Languages』</li>
+	<li>『Object-Oriented Interface Design』</li>
+	<li>『Designing Object-Oriented User Interfaces』</li>
+	<li>『The Elements of User Interface Design』</li>
+	<li>『Designing for the User with OVID』</li></ul></li>
+</ul>
+<ul class="toc">
+<li>おわりに</li>
+<li>参考文献</li>
+<li>索引</li>
+<li>あとがき</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2020 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2020\/978-4-297-11352-0","path":"\/dp\/ebook\/2020\/978-4-297-11352-0","targetId":"978-4-297-11352-0","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

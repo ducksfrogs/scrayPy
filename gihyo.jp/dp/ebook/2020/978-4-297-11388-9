@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>「古着転売」だけで毎月10万円 ―メルカリでできる最強の副業 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="会社員失格の烙印を押され失業，アフィリエイトやAmazon転売にも挫折した著者がたどり着いたのは「三方よし」の古着転売。家電製品や古本などと違ってバーコードがない古着。安く，おしゃれに着こなしたい着たい人は大勢いるのに，価値がわかりづらい分，放置されてしまっている古着がたくさんあります。著者はゼロから手探りで始めた古着転売を磨き，再現性を高め，現在はコンサルタントとしても活躍。指導した人の中から月収100万円以上を稼ぎ出す人たちを輩出しています。本書の目標は，月に5～10万円の利益を自分の力で稼げるようになること。会社員をしながら，主婦をしながらでも十分到達できる，ちょうどいい負荷の目標です。「転売は悪いことじゃないの？」―いえいえ古着転売は，プレイヤー，購入者，実店舗のそれぞれがうれしい「三方よし」のビジネスです。特定の生活必需品や人気商品を買い占める転売とは違います。ファッションが好きでも，そうでなくてもOK。新しいことに一歩踏み出して，新たな自分の可能性を見つけ出す。本書がその後押しをします。"/>
+  <meta name="keywords" content="しーな電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1217.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0411.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="「古着転売」だけで毎月10万円 ―メルカリでできる最強の副業 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="会社員失格の烙印を押され失業，アフィリエイトやAmazon転売にも挫折した著者がたどり着いたのは「三方よし」の古着転売。家電製品や古本などと違ってバーコードがない古着。安く，おしゃれに着こなしたい着たい人は大勢いるのに，価値がわかりづらい分，放置されてしまっている古着がたくさんあります。著者はゼロから手探りで始めた古着転売を磨き，再現性を高め，現在はコンサルタントとしても活躍。指導した人の中から月収100万円以上を稼ぎ出す人たちを輩出しています。本書の目標は，月に5～10万円の利益を自分の力で稼げるようになること。会社員をしながら，主婦をしながらでも十分到達できる，ちょうどいい負荷の目標です。「転売は悪いことじゃないの？」―いえいえ古着転売は，プレイヤー，購入者，実店舗のそれぞれがうれしい「三方よし」のビジネスです。特定の生活必需品や人気商品を買い占める転売とは違います。ファッションが好きでも，そうでなくてもOK。新しいことに一歩踏み出して，新たな自分の可能性を見つけ出す。本書がその後押しをします。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2020/978-4-297-11388-9"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11388-9.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">「古着転売」<wbr/>だけで毎月<wbr/>10<wbr/>万円<br/><span class="sub">―メルカリでできる最強の副業</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11388-9.jpg" alt="「古着転売」だけで毎月10万円 ―メルカリでできる最強の副業"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">しーな　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2020-06-13">2020年6月13日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2020-06-13">2020年6月13日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2020/978-4-297-11387-2" target="_blank">2020年6月13日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">EPUB/PDFセット</span><span class="buy">1,580円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">240</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> <span class="plan">6月13日発売予定<a href="#" id="releaseNotify" class="" data-pid="402898" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2020/978-4-297-11388-9" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2020/978-4-297-11388-9" data-text="「古着転売」だけで毎月10万円 ―メルカリでできる最強の副業 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2020/978-4-297-11388-9" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2020/978-4-297-11388-9" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>会社員失格の烙印を押され失業，<wbr/>アフィリエイトやAmazon転売にも挫折した著者がたどり着いたのは「三方よし」の古着転売。家電製品や古本などと違ってバーコードがない古着。安く，<wbr/>おしゃれに着こなしたい着たい人は大勢いるのに，<wbr/>価値がわかりづらい分，<wbr/>放置されてしまっている古着がたくさんあります。<br />
+著者はゼロから手探りで始めた古着転売を磨き，<wbr/>再現性を高め，<wbr/>現在はコンサルタントとしても活躍。指導した人の中から月収100万円以上を稼ぎ出す人たちを輩出しています。<br />
+本書の目標は，<wbr/>月に5～10万円の利益を自分の力で稼げるようになること。会社員をしながら，<wbr/>主婦をしながらでも十分到達できる，<wbr/>ちょうどいい負荷の目標です。<br />
+「転売は悪いことじゃないの？」―いえいえ古着転売は，<wbr/>プレイヤー，<wbr/>購入者，<wbr/>実店舗のそれぞれがうれしい「三方よし」のビジネスです。特定の生活必需品や人気商品を買い占める転売とは違います。</p>
+
+<p>ファッションが好きでも，<wbr/>そうでなくてもOK。<br />
+新しいことに一歩踏み出して，<wbr/>新たな自分の可能性を見つけ出す。本書がその後押しをします。</p><h3>こんな方におすすめ</h3>
+<ul><li>月5～10万円くらい稼げる副業をしたい方</li><li>メルカリをはじめとするフリマアプリユーザーの方</li><li>自分で稼ぐ力を身につけたい方</li></ul>
+<aside class="author"><h3>しーな</h3><p>1989年生まれ。大学卒業後，<wbr/>新卒で入社した会社を上司のパワハラにより退職。アフィリエイトやAmazon転売などのネットビジネスに失敗したのち，<wbr/>古着転売ビジネスで起業する。<br />
+マーケティングの知識ゼロ，<wbr/>仕入れ資金わずか2万円でビジネスをスタート。「古着の仕入れ」「ネットでの販売」「梱包・<wbr/>発送」の大部分を自動化し，<wbr/>金銭的・<wbr/>身体的・<wbr/>時間的自由を手に入れる。<br />
+過去には会社員を中心に，<wbr/>学生，<wbr/>主婦，<wbr/>フリーランサー，<wbr/>経営者など，<wbr/>新規事業立ち上げやマーケティングを視野に入れたビジネスマンへのセミナーを開催。現在は全国で100名を超える受講生が参加する，<wbr/>マーケティングを軸に古着転売を総合的に教えるビジネス塾を運営している。月収100万円以上を稼ぐ会社員，<wbr/>主婦を輩出。副業で月収10万円以上の塾生も多数在籍。</p></aside><section id="sample"><h2>サンプル</h2><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-01.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/thumb/TH400_9784297113872-01.jpg,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-01.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-02.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/thumb/TH400_9784297113872-02.jpg,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-02.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-03.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/thumb/TH400_9784297113872-03.jpg,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-03.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-04.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/thumb/TH400_9784297113872-04.jpg,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-04.jpg" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-05.jpg"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/thumb/TH400_9784297113872-05.jpg,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11387-2/9784297113872-05.jpg" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="41097">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第0章　そもそも古着転売ビジネスとは？　【STEP0：基礎知識】</h3>
+<ul class="toc">
+
+<li>今日から始められる古着転売<ul class="toc">
+	<li>フリマアプリが働き方を変えた</li>
+	<li>ファッションに無頓着でも古着転売は稼げる</li>
+	<li>服の知識よりも大事な「売り方」</li></ul></li>
+
+<li>古着転売はライバルがいないブルーオーシャン<ul class="toc">
+	<li>初心者が抱きがちな誤解</li>
+	<li>「バーコード」の有無が転売にもたらす大きな影響</li>
+	<li>マーケティングスキルを身につけて真の安定を手に入れる</li>
+	<li>古着転売が自信と安定を生んでくれた</li></ul></li>
+
+
+<li>わずか1年で月収100万円を稼いだ人たち<ul class="toc">
+	<li>マーケティングを駆使して圧倒的に売りまくる</li></ul></li>
+
+
+<li>ほかのネットビジネスと比較したときの古着転売のメリット<ul class="toc">
+	<li>アフィリエイトより古着転売はシンプルだ</li>
+	<li>古着転売はメルカリを見れば正解が載っている</li>
+	<li>Amazon転売より利益率が断然いい</li>
+	<li>仕入れ単価が安いからストレスなく取り組める</li></ul></li>
+
+
+
+</ul>
+<h3>第1章　具体的な古着転売の流れと事前準備　【STEP1：スタート】</h3>
+<ul class="toc">
+
+<li>最速で結果を出すサイクルは勉強→行動→勉強→行動<ul class="toc">
+	<li>「人に話せるくらい」を目標にしよう</li></ul></li>
+
+
+<li>ビジネスモデルを理解することのメリット<ul class="toc">
+	<li>古着転売の3つのパート</li>
+	<li>ビジネスモデルをさらに深掘りする</li></ul></li>
+
+
+<li>古着を仕入れに行く前に準備すること<ul class="toc">
+	<li>アイロンと壁紙も用意しよう</li>
+	<li>発送に必要なもの</li></ul></li>
+
+
+<li>試しに押入れに眠っている服を出品してみよう<ul class="toc">
+	<li>いくらで仕入れていくらで売る？</li></ul></li>
+
+
+
+</ul>
+<h3>第2章　どんな古着を，誰に売るのか？　【STEP2：リサーチ】</h3>
+<ul class="toc">
+
+<li>誰に売るのかを決めないと商売は始まらない<ul class="toc">
+	<li>根拠のない仕入れで大失敗した初心者のころの僕</li>
+	<li>服に一番お金を使うのは誰？</li>
+	<li>お客様の生活をシミュレーションしてみる</li>
+	<li>マニアでもなく無関心でもない中間層を狙う</li></ul></li>
+
+
+<li>たった1人のお客様に売るイメージを持とう<ul class="toc">
+	<li>もしもターゲットを絞らなかったら</li>
+	<li>「誰に売るのか」のまとめ</li></ul></li>
+
+
+<li>最も需要が大きい「トレンド」を狙おう<ul class="toc">
+	<li>オーバーサイズ</li>
+	<li>ビッグロゴ，ワンポイントロゴ</li>
+	<li>スポーツMIXスタイル</li>
+	<li>カラーリング</li></ul></li>
+
+<li>まずはここから！　90年代ブランドリスト<ul class="toc">
+	<li>カジュアル系ブランド</li>
+	<li>スポーツ系ブランド</li>
+	<li>スケーター系ブランド</li>
+	<li>その他人気ブランド――応用編</li></ul></li>
+
+<li>超簡単！　メルカリを使った商品リサーチ<ul class="toc">
+	<li>具体的なリサーチの方法</li>
+	<li>Instagram，WEAR，ファッション誌をしゃぶりつくせ</li></ul></li>
+
+<li>古着専門店に行ってみよう<ul class="toc">
+	<li>古着の状態について理解を深める</li>
+	<li>古着専門店から集客を学ぶ</li>
+	<li>古着屋の世界観作りから学ぶ</li></ul></li>
+
+<li>古着転売のための最低限の服の知識<ul class="toc">
+	<li>スポーツMIXと本気のスポーツの見極めは？</li></ul></li>
+
+
+</ul>
+<h3>第3章　いよいよ仕入れをしてみよう　【STEP3：実践】</h3>
+<ul class="toc">
+
+<li>リサイクルショップとフリーマーケットで仕入れる<ul class="toc">
+	<li>リサイクルショップのメリットとデメリット</li>
+	<li>フリーマーケットのメリットとデメリット</li></ul></li>
+
+<li>リサイクルショップ活用編<ul class="toc">
+	<li>お宝アイテムが眠る場所</li>
+	<li>デザイン→ブランド→サイズ→状態→値段の順にチェックする</li>
+	<li>最初は時間をかけてじっくり棚を見ることで実力がついてくる</li>
+	<li>古着のサイズで一番気にして欲しいこと</li>
+	<li>古着の状態を測るモノサシを作る</li>
+	<li>売値をイメージするための相場の調べ方</li>
+	<li>相場を調べつつ勝手に出品者をコンサルしてみる</li>
+	<li>商品価値をあげるタグの情報</li>
+	<li>季節ごとのおすすめ仕入れアイテム――秋～冬（9月～2月）</li>
+	<li>季節ごとのおすすめ仕入れアイテム――春～夏（3月～8月）</li>
+	<li>仕入れ値500～1000円程度ならテストマーケティングをしよう</li>
+	<li>集客用のアイテムと利益を取るためのアイテムを分ける</li></ul></li>
+
+<li>リサイクルショップで仕入れるならさらに知っておこう<ul class="toc">
+	<li>何度か通って特徴をつかむ</li>
+	<li>リサイクルショップで「手を育てる」</li>
+	<li>仕入れをするなら郊外の店舗を目指せ</li></ul></li>
+
+<li>フリーマーケット活用編<ul class="toc">
+	<li>なるべく大規模なフリマに。都内なら大井競馬場フリマ</li>
+	<li>朝一番に行こう</li>
+	<li>値下げ交渉は工夫次第</li>
+	<li>夏でも冬物を仕入れるのが吉</li></ul></li>
+
+
+</ul>
+<h3>第4章　売れる販売ページの作り方　【STEP4：マーケティング】</h3>
+<ul class="toc">
+
+<li>「販売」を制する者が古着転売を制す<ul class="toc">
+	<li>お客様は「あなたに興味がなく」かつ「怠け者」だと心得よう</li></ul></li>
+
+
+<li>販売ページの作り方――テキスト編<ul class="toc">
+	<li>お客様の関心事を冒頭に書き，そのあとにつなげる</li>
+	<li>自分はプロという自覚を持ち，堂々と売る</li></ul></li>
+
+<li>古着転売の商品説明で一番大切なこと<ul class="toc">
+	<li>集客できる切り口を見つける</li>
+	<li>お客様は「商品を購入したあとの未来」を想像している</li>
+	<li>売れる文章のキモはコーディネートの提案にあり</li>
+	<li>タイトルも，もちろんお客様目線で</li></ul></li>
+
+<li>販売ページの作り方――ビジュアル編<ul class="toc">
+	<li>清潔感を出す（＝生活感を消す）</li>
+	<li>服のシワをきちんと伸ばす</li>
+	<li>左右対称にする</li>
+	<li>写真に光を取り入れる</li>
+	<li>写真を1：1のスクエアサイズに設定する</li>
+	<li>なで肩にする</li>
+	<li>サムネイルにこだわる</li></ul></li>
+
+<li>人が集まるショップを目指してすぐにできること<ul class="toc">
+	<li>初心者のうちは利益よりも回転重視</li>
+	<li>あなたのファンを増やしていく方法</li>
+	<li>フォロー割引，リピーター割引，まとめ買い割引を取り入れる</li>
+	<li>初心者の値付けの仕方</li>
+	<li>アクセスアップには「再出品」</li></ul></li>
+
+
+</ul>
+<h3>第5章　トレンド古着転売応用編＆みんなの質問　【STEP5：さらに飛躍する】</h3>
+<ul class="toc">
+
+<li>メルカリで売るのとヤフオクで売るのは何が違う？<ul class="toc">
+	<li>ヤフオク古着転売のメリットとデメリット</li></ul></li>
+
+<li>ヤフオクだってこれまで学んできたことと同じ</li>
+
+<li>ヤフオクで狙ってみると面白いジャンルは？<ul class="toc">
+	<li>自動車・オートバイメーカー系</li>
+	<li>タイヤメーカー系</li>
+	<li>スポーツジャンル系</li>
+	<li>革ジャン</li></ul></li>
+
+<li>古着転売の不安をまとめて解消しよう</li>
+
+<li>Q　仕入れができなくなることはありますか？<br />
+A　知識と行動の両輪が伴えばあり得ません。</li>
+
+<li>Q　仕入れに使えるお金があんまりないんですが……<br />
+A　商品を回転させて増やしていきましょう。</li>
+
+<li>Q　10万円稼げるまでに時間はどのくらいかかりますか？<br />
+<li>A　遅くとも半年かければ十分達成可能な数字です。</li>
+
+<li>Q　転売は悪いことじゃないんですか？<br />
+A　古着転売は三方よしの価値あるビジネスです。</li>
+
+<li>Q　ほかのネットビジネスに挫折したんですけど稼げますか？<br />
+A　稼げます。僕も含めてそのような前例はたくさんあります。</li>
+
+<li>Q　作業を継続してできないのですがどうしたらいいでしょうか？<br />
+A　「習慣化」と「罰金システム」が鍵です。</li>
+
+<li>Q　やる気はどうやって出せばいいですか？<br />
+A　やる気はやらないと出てきません。</li>
+
+<li>Q　20万円以上の金額を稼ぐにはどうすればいいですか？<br />
+A　作業の効率化を進めましょう。</li>
+
+<li>Q　海外旅行が趣味です。海外で古着の仕入れはできますか？<br />
+A　可能ですが利益を出すことは簡単ではありません。</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2020 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2020\/978-4-297-11388-9","path":"\/dp\/ebook\/2020\/978-4-297-11388-9","targetId":"978-4-297-11388-9","parent":"\/dp\/genre\/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

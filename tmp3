@@ -1,0 +1,10 @@
+: 1591841667:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"'
+: 1591843804:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's/<[^>]*>/ /g'
+: 1591843841:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's/<[^>]*>/ /g' |sed -E 's/<[^]*>//g'
+: 1591843896:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's@<br/>@ @' |sed -E 's/<[^]*>//g'
+: 1591843949:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's@<br/>@ @'
+: 1591843985:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's@<br/>@ @' |sed -E 's/<[^>]*//g'
+: 1591844023:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's@<br/>@ @' |sed -E 's/<[^>]*//g' |sed -E 
+: 1591844064:0;cat gihyo.jp/dp/index.html| grep 'itemprop="name"' |sed -E 's@<br/>@ @' |sed -E 's/<[^>]*//g' |sed -E 's/^ *//'
+: 1591844183:0;h -100|grep tail
+: 1591844196:0;tail ~/.zhistory >tmp3

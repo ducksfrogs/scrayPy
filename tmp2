@@ -1,0 +1,10 @@
+: 1591840435:0;cat yakei_kobe.csv|grep -E '3$'
+: 1591840470:0;cat yakei_kobe.csv|grep -E ',.{5}'
+: 1591840497:0;cat yakei_kobe.csv|grep -E ',.{5},'
+: 1591840515:0;cat yakei_kobe.csv
+: 1591840528:0;cat yakei_kobe.csv|grep -E ',.{5},'
+: 1591840542:0;cd ..
+: 1591840579:0;cat gihyo.jp/dp/index.html |grep -E 'class="paging-number"'
+: 1591840649:0;h -100|grep tmp
+: 1591840658:0;tail ~/.zhistory >tmp
+: 1591840662:0;tail ~/.zhistory >tmp2
