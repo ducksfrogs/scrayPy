@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：総合</title>
+ <link>https://gihyo.jp/</link>
+ <description>gihyo.jp（総合）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2020</copyright>
+ <lastBuildDate>Fri, 12 Jun 2020 14:22:00 +0900</lastBuildDate>
+ <image>
+  <url>https://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>https://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>2020年6月12日号　Meltdown/Spectre/Foreshadowの後の世界・“CROSSTalk” ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202006/12</link>
+  <description>そろそろ定番になりつつある，CPU脆弱性の新顔が公表されました。通称“CROSSTalk”または“SRBDS”といわれるこの脆弱性は，いわゆるTransient Execution Attackの一種です。</description>
+  <pubDate>Fri, 12 Jun 2020 09:50:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202006/12</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>2020年6月第2週号 1位は，UIを改善する8つのヒント，気になるネタは，Zoomのエンドツーエンド暗号化，有料ユーザーのみに提供へ ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202006/11</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2020年6月1日～6月7日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 11 Jun 2020 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202006/11</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>2020年6月第2週　Android 11のベータリリースの発表イベントを延期他 ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202006/11</link>
+  <description>2020年6月第2週のAndroid関連のニュースです。</description>
+  <pubDate>Thu, 11 Jun 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202006/11</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>第622回　Spacedeckでホワイトボードを共有する ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0622</link>
+  <description>今回は，リモートでの打ち合わせ時にも使えるウェブブラウザー上で動くホワイトボードサービスを構築してみましょう。</description>
+  <pubDate>Wed, 10 Jun 2020 09:41:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0622</guid> 
+  <author>柴田充也</author>
+ </item>
+ <item>
+  <title>第20回　Days of WINE and Struggles［7］ ── 続・玩式草子 ―戯れせんとや生まれけん―</title>
+  <link>https://gihyo.jp/lifestyle/serial/01/ganshiki-soushi-2/0020</link>
+  <description>最終回の今回はWINEの簡単な使い方やPlamo LinuxでのWINEサポートの現状等を紹介します。</description>
+  <pubDate>Tue, 09 Jun 2020 13:21:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/serial/01/ganshiki-soushi-2">続・玩式草子 ―戯れせんとや生まれけん―</category>
+  <guid>https://gihyo.jp/lifestyle/serial/01/ganshiki-soushi-2/0020</guid> 
+  <author>こじまみつひろ</author>
+ </item>
+ <item>
+  <title>2020年6月9日　&quot;Easy&quot;へのあくなき追求 ― Puppy Linuxの作者によるイメージ書き込みツール「EasyDD」 ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/41187/09</link>
+  <description>「Puppy Linux」や「EasyOS」の作者として知られるBarry Kaulerは5月28日，USBメモリなどのポータブルメディアに簡単にOSイメージを書き込めるアプリケーション「EasyDD」をオープンソースとして公開した。</description>
+  <pubDate>Tue, 09 Jun 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/41187/09</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>第123回　ロッキングリードのNOWAITとSKIP LOCKEDオプションについて ── MySQL道普請便り</title>
+  <link>https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0123</link>
+  <description>今回は，MySQL 8.0から使用できるNOWAITとSKIP LOCKEDオプションについて，使いどころを混じえて紹介したいと思います。</description>
+  <pubDate>Tue, 09 Jun 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/mysql-road-construction-news">MySQL道普請便り</category>
+  <guid>https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0123</guid> 
+  <author>北川健太郎</author>
+ </item>
+ <item>
+  <title>2020年6月5日号　MicroK8sのWindows＆macOSへのネイティブ対応 ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202006/05</link>
+  <description>1台のマシンでKubernetes（K8s）環境を構成できる便利なツール，MicroK8sがWindowsとmacOSにネイティブ対応しました。</description>
+  <pubDate>Fri, 05 Jun 2020 09:42:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202006/05</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>2020年6月第1週　読み・書きできるE-Ink Androidタブレット「BOOX nova 2」レビュー（後編） ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202006/04</link>
+  <description>前回に続き，E-Ink Androidタブレット「BOOX nova 2」のレビューを紹介します。</description>
+  <pubDate>Thu, 04 Jun 2020 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202006/04</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>2020年6月第1週号 1位は，写真の上に文字を配置するときに使えるテクニック，気になるネタは，富士フイルムもデジカメのWebカメラ化ソフト Web会議の需要増に対応 ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202006/04</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2020年5月25日～5月31日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 04 Jun 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202006/04</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>2020年6月3日　&quot;Buster&quot;をベースにしたsystemdフリーOS「Devuan 3.0 &quot;Beowulf&quot;」がリリース ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/41187/03</link>
+  <description>Devuanプロジェクトは6月1日，「Devuan 3.0 &quot;Beowulf&quot;」のリリースを発表した。</description>
+  <pubDate>Wed, 03 Jun 2020 13:33:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/41187/03</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>第621回　Ubuntu 20.04 LTSでxrdpを使用する ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0621</link>
+  <description>今回は第208回以来約8年ぶりに，X Window Systemで動作するRDPサーバーである，xrdpを使用する方法を紹介します。</description>
+  <pubDate>Wed, 03 Jun 2020 09:47:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0621</guid> 
+  <author>あわしろいくや</author>
+ </item>
+ <item>
+  <title>2020年6月2日　おしゃべりねこーず2 ── 帰ってきた『技評ねこ部通信』</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202006/0602</link>
+  <description>前回に引き続き，おしゃべりねこーずをお送りします。</description>
+  <pubDate>Tue, 02 Jun 2020 15:00:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/monthly-cat">帰ってきた『技評ねこ部通信』</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202006/0602</guid> 
+  <author></author>
+ </item>
+ <item>
+  <title>2020年6月2日　Linux 5.7がリリース ―サーマルプレッシャー，exFAT，iOS用USBドライバなど ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/41187/02</link>
+  <description>Linus Torvaldsは5月31日，「Linux 5.7」のリリースを発表した。</description>
+  <pubDate>Tue, 02 Jun 2020 14:13:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/41187/02</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>第58回　OSS-DB入門セミナー開催，MySQL 25周年，PostgreSQL 13ベータ版登場 ── OSSデータベース取り取り時報</title>
+  <link>https://gihyo.jp/dev/serial/01/oss-db-various-news/0058</link>
+  <description>この連載では，OSSコンソーシアムデータベース部会のメンバーが，さまざまなオープンソースデータベースの毎月の出来事をお伝えしています。</description>
+  <pubDate>Mon, 01 Jun 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/oss-db-various-news">OSSデータベース取り取り時報</category>
+  <guid>https://gihyo.jp/dev/serial/01/oss-db-various-news/0058</guid> 
+  <author>梶山隆輔，溝口則行</author>
+ </item>
+ <item>
+  <title>2020年5月29日号　Windows 10 May 2020 Update（Version 2004）の一般公開，+1 Maintenance ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202005/29</link>
+  <description>WSL上のUbuntuを利用しているユーザーにとっては待ちかねたリリースとなるであろう，Windows 10 May 2020 Updateが一般公開されました。</description>
+  <pubDate>Fri, 29 May 2020 09:43:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202005/29</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>オンラインチャリティイベント「Python Charity Talks in Japan」7月に開催 ── インフォメーション</title>
+  <link>https://gihyo.jp/news/info/2020/05/2801</link>
+  <description>一般社団法人PyCon JP Associationは，Python Software Foundation（PSF）への寄付と，日本国内企業のアピールの場を両立したオンラインイベント「Python Charity Talks in Japan」を7月4日（土）に開催する。</description>
+  <pubDate>Thu, 28 May 2020 10:39:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/info">インフォメーション</category>
+  <guid>https://gihyo.jp/news/info/2020/05/2801</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>2020年5月第5週　読み・書きできるE-Ink Androidタブレット「BOOX nova 2」レビュー ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202005/28</link>
+  <description>今回は，ガジェットマニアが必ず通る電子ペーパーを搭載したAndroidタブレットを取り上げます。</description>
+  <pubDate>Thu, 28 May 2020 09:15:20 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202005/28</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>2020年5月第5週号 1位は，ウィンドウサイズが中途半端なときの「中間の」デザインが崩れる問題と対策，気になるネタは，ZOZO，Web会議向け“着るグリーンバック”Tシャツ発売 デジタルファッションを提案するページ開設で ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202005/28</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2020年5月18日～5月24日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 28 May 2020 09:15:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202005/28</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>第620回　Ubuntu 20.04 LTSでU2F/FIDOデバイスを使ったSSHの2要素認証を試す ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0620</link>
+  <description>Ubuntu 20.04 LTSではOpenSSHサーバーのバージョンが8.2にアップデートされ，U2F/FIDOハードウェアデバイスのサポートが追加されました。今回はYubiKeyのSecurity Key by Yubicoを使い，SSHログインに2要素認証を導入する方法を紹介します。</description>
+  <pubDate>Wed, 27 May 2020 09:35:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0620</guid> 
+  <author>水野源</author>
+ </item>
+</channel>
+</rss>
