@@ -1,0 +1,24 @@
+h1
+['List of ', <i>Game of Thrones</i>, ' episodes']
+<h1 class="firstHeading" id="firstHeading" lang="en">List of <i>Game of Thrones</i> episodes</h1>
+List of Game of Thrones episodes
+List of Game of Thrones episodes
+{'id': 'firstHeading', 'class': ['firstHeading'], 'lang': 'en'}
+firstHeading
+firstHeading
+----- CITATIONS -------
+Fowler, Matt (April 8, 2011). "Game of Thrones: "Winter is Coming" Review". IGN. Archived from the original on August 17, 2012. Retrieved September 22, 2016.
+https://web.archive.org/web/20120817073932/http://tv.ign.com/articles/116/1160215p1.html
+
+Fleming, Michael (January 16, 2007). "HBO turns Fire into fantasy series". Variety. Archived from the original on May 16, 2012. Retrieved September 3, 2016.
+https://web.archive.org/web/20120516224747/http://www.variety.com/article/VR1117957532?refCatId=14
+
+"Game of Thrones". Emmys.com. Retrieved September 17, 2016.
+http://www.emmys.com/shows/game-thrones
+
+Roberts, Josh (April 1, 2012). "Where HBO's hit 'Game of Thrones' was filmed". USA Today. Archived from the original on April 1, 2012. Retrieved March 8, 2013.
+https://web.archive.org/web/20120401123724/http://travel.usatoday.com/destinations/story/2012-04-01/Where-the-HBO-hit-Game-of-Thrones-was-filmed/53876876/1
+
+Schwartz, Terri (January 28, 2013). "'Game of Thrones' casts a bear and shoots in Los Angeles for major Season 3 scene". Zap2it. Archived from the original on October 16, 2013. Retrieved March 8, 2013.
+https://web.archive.org/web/20131016062544/http://blog.zap2it.com/frominsidethebox/2013/01/game-of-thrones-casts-a-bear-and-shoots-in-los-angeles-for-major-season-3-scene.html
+
