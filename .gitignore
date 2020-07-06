@@ -44,3 +44,4 @@ geckodriver.log
 *.iml
 
 ./gihyo.jp/*
+.env
