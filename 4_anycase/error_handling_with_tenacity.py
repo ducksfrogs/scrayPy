@@ -1,4 +1,26 @@
 import requests
-import tenacity
+from tenacity import retry, stop_after_attempt, wait_exponential
 
-@ret
+import time
+
+TEMPORARA_ERROR_CODES = (400, 500, 502, 503, 504)
+
+def main():
+    response = fetch('http://httpbin.org/status/200,404,503')
+    if 200 <= response.status_code < 300:
+        print("Success!")
+    else:
+        print("Error")
+
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1))
+
+def fetch(url: str) -> requests.Response:
+    print(f'Retiveing{url}...')
+    response = requests.get(url)
+    print(f'status: {response.status_code}')
+    if response.status_code not in TEMPORARA_ERROR_CODES:
+        return response
+    raise Exception(f'Temporary Error: { response.status_code }')
+
+if __name__ == '__main__':
+    main()
